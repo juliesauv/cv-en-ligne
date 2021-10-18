@@ -1,0 +1,118 @@
+h1 { 
+	font-size: 70px;
+	font-family: Arial Narrow, sans-serif;
+	color: rgba(74, 64, 58);
+	margin: 40px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 5px;
+ }
+
+ #Julie {
+ 	width: 200px;
+ 	border-radius: 50%;
+ 	margin-top: 40px;
+ }
+
+ .center{
+ 	text-align: center;
+ }
+
+ h2 {
+ 	font-size: 50px;
+ 	font-family: Arial Narrow, sans-serif;
+ 	color: #4A403A;
+ 	text-align: center;
+ 	margin: 40px;
+ }
+
+
+ .border{
+ 	background: rgba(255, 192, 159, 0.5);
+ 	margin: 20px;
+ 	padding: 15px;
+ 	border-radius: 25px;
+ 	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.9);
+
+ }
+
+ body {
+ 	background: lightgrey;
+ }
+
+ h3{
+ 	font-size: 30px;
+ 	font-family: Arial Narrow, sans-serif;
+ 	color: black;
+ 	font-weight: 500px;
+ 	padding: 15px;
+ 	text-align: center;
+ }
+
+ .underline {
+ 	text-decoration: underline;
+ }
+
+.Boxes {
+	background: rgba(255, 192, 159, 0.5);
+ 	margin: 20px;
+ 	padding: 40px;
+ 	border-radius: 25px;
+ 	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.9);
+ 	text-align: justify;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10px;
+	grid grid-auto-rows: minmax(100px, auto);
+}
+
+.one {
+	grid-column: 1 / 2;
+	grid-row: 1 / 2; 
+}
+
+.two {
+	grid-column: 2 / 3;
+	grid-row: 1 / 2;
+}
+
+.three {
+	grid-column: 1 / 3;
+	grid-row: 2;
+	text-align: center;
+}
+
+.Linkedin {
+	margin-top: 50px;
+	font-size: 20px;
+ 	font-family: Arial Narrow, sans-serif;
+ 	color: #4A403A;
+ 	font-weight: 400px;
+ 	padding: 10px;
+ 	text-align: center;
+}
+
+.fab {
+	font-size: 90px;
+	text-align: center;
+}
+
+a {
+	color: #000000 ;
+}
+
+body {
+	font-family: Arial Narrow, sans-serif;
+}
+.bold_title {
+	font-size: 15px;
+	color: #000000;
+	font-weight: bolder;
+}
+
+footer {
+	text-align: center;
+}
